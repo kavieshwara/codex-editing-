@@ -4,11 +4,13 @@ Codex-focused video editing skills for premium short-form content.
 
 This repo packages a practical workflow for creating professional vertical shorts with:
 
+- reference-video style analysis
 - transcript-first editing
 - 9:16 split-screen layouts
 - motion graphics mapped to speech
 - clean middle captions
 - restrained brand color systems
+- style variation instead of repeating one template
 - subtle sound design planning
 - preview-frame QA before final export
 - final MP4 verification
@@ -32,6 +34,21 @@ This repo packages a practical workflow for creating professional vertical short
 Install this repo as a Codex plugin or copy the skill folder into your local Codex skills directory.
 
 When editing a video, ask Codex for a premium vertical short and provide the source video, transcript, or topic. The skill guides Codex through ingest, transcript mapping, motion graphics, captions, sound design, preview checks, and final export.
+
+## Reference-Style Workflow
+
+When a reference video is provided, Codex should first extract the editing grammar:
+
+- hook structure
+- layout rhythm
+- caption style
+- color palette
+- motion graphic types
+- transition language
+- sound effect placement
+- pacing and scene-change frequency
+
+Then Codex should create a new edit plan from that grammar without copying copyrighted footage, logos, or exact original creative assets.
 
 ## License
 
