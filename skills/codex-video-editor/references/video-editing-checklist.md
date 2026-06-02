@@ -6,7 +6,9 @@
 - Confirm if the source already has burned-in captions.
 - Extract audio when transcription is needed.
 - Build a beat map from the transcript.
+- If a reference video is provided, write a short style analysis before designing.
 - Decide the color palette before designing graphics.
+- Pick a different style direction from the previous edit unless the user asks for the same one.
 
 ## Layout
 
@@ -23,6 +25,7 @@
 - Use clean, readable labels.
 - Animate entry, active state, and exit.
 - Avoid too many colors.
+- Check that the motion graphics are not the same repeated visual from earlier videos.
 
 ## Captions
 
@@ -42,6 +45,8 @@
 
 - Render preview stills at early, middle, and late frames.
 - Visually inspect crop, text, colors, and overlap.
+- Compare previews to the chosen reference/style direction.
+- Reject the output if it looks like the previous template without a clear reason.
 - Run lint or type checks if code was edited.
 - Render final MP4.
 - Run ffprobe on final output.
