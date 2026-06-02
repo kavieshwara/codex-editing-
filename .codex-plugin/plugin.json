@@ -1,0 +1,10 @@
+{
+  "name": "codex-editing",
+  "version": "0.1.0",
+  "description": "Codex video editing workflows for premium short-form motion graphics, captions, sound design, and export verification.",
+  "skills": [
+    {
+      "path": "skills/codex-video-editor"
+    }
+  ]
+}
